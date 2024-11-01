@@ -1,0 +1,64 @@
+/* Captions */
+.sl-wrapper .sl-image .sl-caption{
+    width: 100%;
+    position: relative;
+}
+
+.smGallery_fbgalleryBox{
+	width: calc(25% - 6px);
+	height: 250px;
+	margin: 3px;
+	float: left;
+	position: relative;
+}
+
+.smGallery_fbgalleryBox img{
+	width: 100%
+}
+
+.sl-wrapper .sl-close{
+	top: 40px;
+}
+
+
+/* Facebook Video Box */
+.smGallery_fbVideoBox{
+    width:calc(50% - 6px);
+    margin: 3px;
+    float: left;
+    overflow:hidden;
+    position:relative;
+}
+
+
+
+@media only screen and (max-width : 1200px) {
+
+}
+
+@media only screen and (max-width : 992px) {
+.smGallery_fbgalleryBox{
+    width:calc(33.33% - 6px);
+}
+}
+
+@media only screen and (max-width : 768px) {
+.smGallery_fbgalleryBox{
+    width:calc(50% - 6px);
+}
+
+.smGallery_fbVideoBox{
+    width: 100%
+}
+}
+
+@media only screen and (max-width : 480px) {
+/* Facebook Gallery */
+.smGallery_fbgalleryBox{
+    width: 100%;
+}
+
+.smGallery_fbVideoBox{
+    width: 100%
+}
+}
